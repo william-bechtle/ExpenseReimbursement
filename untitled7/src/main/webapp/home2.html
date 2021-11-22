@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Menu</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+</head>
+<body class ="background_force">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <form action="fifth" method = "get">
+                    <input type="hidden" class="hidden" name="user" id="user">
+                    <button class="nav-link">Home </button>
+                </form>
+            </li>
+            <li class="nav-item active">
+                <form action="fifth" method = "get">
+                    <input type="hidden" class="hidden" name="url" id="url">
+                    <button class="nav-link">Log Out</button>
+                </form>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="wrapper" id="usermenu">
+    <h1 id="usern"></h1>
+    <form method="get" action = "sixth">
+    <div>
+        <input type="hidden" class="hidden" name="user" id="username">
+    </div>
+    <div class="padd">
+        <input id = "butt" class="btn bg-info" type="submit" value="Calculator">
+    </div>
+    </form>
+
+
+
+
+</div>
+
+</body>
+
+<script>
+    let searchParams = new URLSearchParams(window.location.search);
+    let x = searchParams.get("user");
+
+    document.getElementById("usern").innerHTML = `Hello ${x}!`;
+    document.getElementById("username").value = x;
+    document.getElementById("url").value = "1";
+    document.getElementById("user").value = x;
+    console.log(x);
+    if (x == "wjbechtle@gmail.com") {
+        document.getElementById("usermenu").innerHTML += `
+
+        <form method="get" action = "seventh">
+            <div>
+                <input type="hidden" class="hidden" name="user" id="usernam">
+            </div>
+            <div class="padd">
+                <input id = "butto" class="btn bg-info" type="submit" value="List of Reimbursements">
+            </div>
+
+        </form>`;
+        document.getElementById("usernam").value = x;
+    }
+    else {
+        document.getElementById("usermenu").innerHTML += `
+
+        <form method="get" action = "eleventh">
+            <div>
+                <input type="hidden" class="hidden" name="user" id="usernam">
+            </div>
+            <div class="padd">
+                <input id = "butto" class="btn bg-info" type="submit" value="List of Your Reimbursements">
+            </div>
+
+        </form>
+        <form method="get" action = "transacform.html">
+        <div>
+            <input type="hidden" class="hidden" name="user" id="userna">
+        </div>
+        <div class="padd">
+            <input id = "buttoo" class="btn bg-info" type="submit" value="Submit Reimbursment Request">
+        </div>
+
+    </form>`;
+    document.getElementById("userna").value = x;
+    document.getElementById("usernam").value = x;
+    }
+
+</script>
+</html>
