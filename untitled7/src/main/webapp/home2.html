@@ -30,6 +30,15 @@
     </div>
 </nav>
 
+<center>
+<div className="jumbotron text-center">
+    <h1 className="display-4" id = "nameclass"></h1>
+    <p className="lead">
+        Welcome to remiburse me, your one stop shop for all your reimbursements.
+    </p>
+</div>
+</center>
+
 <div class="wrapper" id="usermenu">
     <h1 id="usern"></h1>
     <form method="get" action = "sixth">
@@ -52,7 +61,7 @@
     let searchParams = new URLSearchParams(window.location.search);
     let x = searchParams.get("user");
 
-    document.getElementById("usern").innerHTML = `Hello ${x}!`;
+    document.getElementById("nameclass").innerHTML = `Hello ${x}!`;
     document.getElementById("username").value = x;
     document.getElementById("url").value = "1";
     document.getElementById("user").value = x;

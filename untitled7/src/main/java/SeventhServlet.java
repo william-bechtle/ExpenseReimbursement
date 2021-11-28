@@ -35,6 +35,9 @@ public class SeventhServlet extends HttpServlet {
             if (transactions.get(i).getApproved() == 1) {
                 a += "<td>" + "Approved" + "</td>\n";
             }
+            else if (transactions.get(i).getApproved() == 2) {
+                a += "<td>" + "Denied" + "</td>\n";
+            }
             else if (transactions.get(i).getApproved() == 0){
                 a += "<td>\n";
                 a += "<form action = \"ninth\" method = \"get\">\n";

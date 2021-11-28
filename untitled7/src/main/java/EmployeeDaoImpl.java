@@ -111,7 +111,7 @@ public class EmployeeDaoImpl {
                         }
                     </style>
                 </head>
-                <body class="bg-success">
+                <body class="background_force">
                 
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <a class="navbar-brand" href="#">Navbar</a>
@@ -133,7 +133,11 @@ public class EmployeeDaoImpl {
                     </div>
                 </nav>      
                                 
-                <div class="wrapper bg-danger"> <h1>Reimbursements</h1></div>
+                <center>
+                <div className="jumbotron text-center">
+                    <h1 className="display-4" id = "nameclass">Reimbursements</h1>
+                </div>
+                </center>
                 <div class="container">
                     <table class="table table-danger table-striped table-bordered table-hover border-rounded">
                                 

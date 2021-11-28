@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
         body{
-            background-color: #143008;
+            background-color: white;
             font-family: 'Oswald', sans-serif;
         }
         .background_force{
-            background-color: #143008;
+            background-color: white;
             font-family: 'Oswald', sans-serif;
         }
         .wrapper{
-            background-color: rgb(236, 15, 15);
+            background-color: white;
             width: 600px;
             padding: 40px;
             margin: auto;
