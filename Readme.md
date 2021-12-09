@@ -1,6 +1,7 @@
 # **EXPENSE REIMBURSEMENT**
-Project Description
-Here goes your awesome project description!
+
+## **Project Description**
+Expense Reimbursement web application that allows employees to submit a reimbursement request and view all of their reimbursement requests, and have a calculator to add up costs.
 
 Technologies Used
 Tech 1 - version 1.0
