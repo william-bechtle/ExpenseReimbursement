@@ -90,13 +90,8 @@ Run the project with the TomCat run configuration.
 ![image](https://user-images.githubusercontent.com/93163143/145493295-04528dea-28d9-47cb-a83e-9b9e568971d2.png)
 
 
-  
-
-  
-
-
-
-
 ## **Usage**
-Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
+Go to http://localhost:8081/ExpenseReimbursement/home to see the login screen, you do not have an account, so click register.
+![image](https://user-images.githubusercontent.com/93163143/145493566-f34a6dc1-b405-4e1d-be00-0de79b8ea3a0.png)
+
 
