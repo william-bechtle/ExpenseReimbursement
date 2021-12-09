@@ -73,16 +73,29 @@ Create MySQL database with: $ CREATE DATABASE revature
 Switch to the database with: $ use revature
   
 Run these 2 commands to create two tables: 
-  
+
+create table employee (id int PRIMARY KEY AUTO_INCREMENT, age int, gender varchar(255), password varchar(255), username varchar(255) UNIQUE);
+
+create table transactions (id int PRIMARY KEY AUTO_INCREMENT, amount DECIMAL(10,2), approved int, reason varchar(255), username varchar(255));
+
+Open the GitHub repo in Maven or Ecplipse.
+
+Go into src.main.resources.hibernate.cfg.xml and edit the username and password properties to match your database.
+
+Add a TomCat Run configuration with the Version listed above. Set the deployment directory to the webapp folder in the project, set the context path to /ExpenseReimbursement, set the Server Port to 8081, and the admin port to 8005.
+
+Build the project, this will download all necessary dependencies. 
+
+Run the project with the TomCat run configuration.
+
+![image](https://user-images.githubusercontent.com/93163143/145493202-0dc1124f-1434-43ea-873d-ac69636fea15.png)
 
   
 
+  
 
-Be sure to include BOTH Windows and Unix command
-Be sure to mention if the commands only work on a specific platform (eg. AWS, GCP)
 
-All the code required to get started
-Images of what it should look like
+
 
 ## **Usage**
 Here, you instruct other people on how to use your project after they’ve installed it. This would also be a good place to include screenshots of your project in action.
