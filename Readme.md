@@ -5,13 +5,21 @@ Expense Reimbursement web application that allows employees to submit a reimburs
 
 ## **Technologies Used**
 Hibernate - Version 5.6.1.Final
-mysql-connector-java - VErsion 8.0.27
+
+mysql-connector-java - Version 8.0.27
+
 junit - Version 4.11
+
 javax.servet - Version 2.5
+
 Tomcat - Version 8.5.72
+
 HTML5 - Version 5
+
 JavaScript - Version ES2015
+
 CSS - Version 3
+
 Java - Version 17
 
 ## **Features**
