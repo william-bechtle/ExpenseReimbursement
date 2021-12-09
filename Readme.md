@@ -23,15 +23,41 @@ CSS - Version 3
 Java - Version 17
 
 ## **Features**
-List of features ready and TODOs for future development
 
-Awesome feature 1
-Awesome feature 2
-Awesome feature 3
+Register
+
+Login 
+
+Log Out
+
+Navigation Bar 
+
+### **Manager**
+
+View list of all reimbursement requests, with option to approve or deny certain requests.
+
+Calculator, to add up reimbursements.
+
+### **Employee**
+
+View list of all their reimbursement requests and the status of those requests. (Approved, Denied, Pending)
+
+Submit new reimbursement request, (app verifies to make sure information entered is correct).
+
+Calculator, to add up expenses. 
+
 To-do list:
 
-Wow improvement to be done 1
-Wow improvement to be done 2
+Allow employees to transfer money to eachother.
+
+Allow manager to remove employees from the system.
+
+Allow manager to add new employees manually, instead of having them sign up.
+
+Allow manager to flag a reimbursement request as susipicous, which sends an alert to the employee warning them not to do that again.
+
+Allow manager to revoke an employee's access to submitting reimbursement requests.
+
 
 ## **Getting Started**
 (include git clone command) (include all environment setup steps)
