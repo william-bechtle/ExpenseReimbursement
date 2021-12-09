@@ -46,7 +46,7 @@ Submit new reimbursement request, (app verifies to make sure information entered
 
 Calculator, to add up expenses. 
 
-To-do list:
+#### **To-do list:**
 
 Allow employees to transfer money to eachother.
 
