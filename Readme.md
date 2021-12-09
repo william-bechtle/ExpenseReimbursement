@@ -101,6 +101,9 @@ Run the project with the TomCat run configuration.
 ### A screen will show with your information (below), click login and enter your username and password:
 ![image](https://user-images.githubusercontent.com/93163143/145494028-433cf187-a959-4162-acb9-4f04a6c515a5.png)
 
+### You will now see the menu:
+
+
 
 
 
