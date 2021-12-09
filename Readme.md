@@ -66,7 +66,7 @@ Run the command in the command line: $ git clone https://github.com/william-bech
 
 install MySQL: https://dev.mysql.com/downloads/installer/
 
-Login to MySQL with: $ mysql -u <USERNAME> -p <PASSWORD>
+Login to MySQL with: $ mysql -u USERNAME -p PASSWORD
   
 Create MySQL database with: $ CREATE DATABASE revature
   
