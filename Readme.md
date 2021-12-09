@@ -87,8 +87,8 @@ Add a TomCat Run configuration with the Version listed above. Set the deployment
 Build the project, this will download all necessary dependencies. 
 
 Run the project with the TomCat run configuration.
+![image](https://user-images.githubusercontent.com/93163143/145493295-04528dea-28d9-47cb-a83e-9b9e568971d2.png)
 
-![image](https://user-images.githubusercontent.com/93163143/145493202-0dc1124f-1434-43ea-873d-ac69636fea15.png)
 
   
 
