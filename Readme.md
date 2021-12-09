@@ -91,14 +91,21 @@ Run the project with the TomCat run configuration.
 
 
 ## **Usage**
-Go to http://localhost:8081/ExpenseReimbursement/home to see the login screen, you do not have an account, so click New User.
+
+### Go to http://localhost:8081/ExpenseReimbursement/home to see the login screen, you do not have an account, so click New User.
 ![image](https://user-images.githubusercontent.com/93163143/145493566-f34a6dc1-b405-4e1d-be00-0de79b8ea3a0.png)
 
-After clicking, the register screen should show like below, enter the info and click Sign Up: 
+### After clicking, the register screen should show like below, enter the info and click Sign Up: 
 ![image](https://user-images.githubusercontent.com/93163143/145493737-e82505b8-fefc-4f44-aa3e-557223fbae2d.png)
 
-A screen will show with your information:
-![image](https://user-images.githubusercontent.com/93163143/145493930-8d889866-de99-4f27-8eb0-3c8325f641ad.png)
+### A screen will show with your information (below), click login and enter your username and password:
+![image](https://user-images.githubusercontent.com/93163143/145494028-433cf187-a959-4162-acb9-4f04a6c515a5.png)
+
+
+
+
+
+
 
 
 
