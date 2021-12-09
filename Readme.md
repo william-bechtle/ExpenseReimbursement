@@ -60,6 +60,8 @@ Allow manager to revoke an employee's access to submitting reimbursement request
 
 
 ## **Getting Started**
+Install git from this link: https://git-scm.com/download/win
+
 Run the command in the command line: $ git clone https://github.com/william-bechtle/ExpenseReimbursement/
 
 install MySQL: https://dev.mysql.com/downloads/installer/
@@ -71,6 +73,7 @@ Create MySQL database with: $ CREATE DATABASE revature
 Switch to the database with: $ use revature
   
 Run these 2 commands to create two tables: 
+  
 
   
 
