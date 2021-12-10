@@ -101,8 +101,12 @@ Run the project with the TomCat run configuration.
 ### A screen will show with your information (below), click login and enter your username and password:
 ![image](https://user-images.githubusercontent.com/93163143/145494028-433cf187-a959-4162-acb9-4f04a6c515a5.png)
 
-### You will now see the menu:
+### You will now see the menu, you can click the "Home" in the NavBar at anytime to go back to this page:
 ![image](https://user-images.githubusercontent.com/93163143/145494469-3d2c2fb9-ba57-4cfa-be05-84ef6b1567b3.png)
+
+### Selection "Submit Reimbursement Request" will show this screen, enter the info, if you enter it incorrectly, it will make you do it again:
+![image](https://user-images.githubusercontent.com/93163143/145494704-8a960f17-7c0b-4c38-a66a-2c717f51e4da.png)
+
 
 
 
