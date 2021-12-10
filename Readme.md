@@ -110,6 +110,10 @@ Run the project with the TomCat run configuration.
 ### After submitting the request, it will bring you back to the Menu above, then you can select "List of your reimbursements" to see the reimbursement you submitted:
 ![image](https://user-images.githubusercontent.com/93163143/145494864-41ad9764-545c-43e0-bc78-7104fc7f7053.png)
 
+### You can then click the home button, to return to the Menu above, clicking on calculator will show the calculator: 
+![image](https://user-images.githubusercontent.com/93163143/145495020-2cc2d110-2841-4c23-adf1-6d46a02fdea2.png)
+
+
 
 
 
