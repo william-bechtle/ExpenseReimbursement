@@ -20,7 +20,7 @@ let searchParams = new URLSearchParams(window.location.search);
         </tr>
         `;
 function getDat() {
-    location.href = "http://localhost:8081/untitled7/home";
+    location.href = "http://localhost:8081/ExpenseReimbursement/home";
 }
 
 
