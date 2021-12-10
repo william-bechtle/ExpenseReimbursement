@@ -74,9 +74,9 @@ Switch to the database with: $ use revature
   
 Run these 2 commands to create two tables: 
 
-create table employee (id int PRIMARY KEY AUTO_INCREMENT, age int, gender varchar(255), password varchar(255), username varchar(255) UNIQUE);
+1. $ create table employee (id int PRIMARY KEY AUTO_INCREMENT, age int, gender varchar(255), password varchar(255), username varchar(255) UNIQUE);
 
-create table transactions (id int PRIMARY KEY AUTO_INCREMENT, amount DECIMAL(10,2), approved int, reason varchar(255), username varchar(255));
+2. $ create table transactions (id int PRIMARY KEY AUTO_INCREMENT, amount DECIMAL(10,2), approved int, reason varchar(255), username varchar(255));
 
 Open the GitHub repo in Maven or Ecplipse.
 
@@ -102,6 +102,8 @@ Run the project with the TomCat run configuration.
 ![image](https://user-images.githubusercontent.com/93163143/145494028-433cf187-a959-4162-acb9-4f04a6c515a5.png)
 
 ### You will now see the menu:
+![image](https://user-images.githubusercontent.com/93163143/145494469-3d2c2fb9-ba57-4cfa-be05-84ef6b1567b3.png)
+
 
 
 
