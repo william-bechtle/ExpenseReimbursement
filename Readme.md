@@ -72,11 +72,13 @@ Create MySQL database with: $ CREATE DATABASE revature
   
 Switch to the database with: $ use revature
   
-Run these 2 commands to create two tables: 
+Run these 3 commands to create two tables and insert a necessary account: 
 
 1. $ create table employee (id int PRIMARY KEY AUTO_INCREMENT, age int, gender varchar(255), password varchar(255), username varchar(255) UNIQUE);
 
 2. $ create table transactions (id int PRIMARY KEY AUTO_INCREMENT, amount DECIMAL(10,2), approved int, reason varchar(255), username varchar(255));
+
+3. $ insert into employee (age,gender,password,username) VALUES (50,"Male","pass","wjbechtle@gmail.com");
 
 Open the GitHub repo in Maven or Ecplipse.
 
@@ -123,6 +125,8 @@ Run the project with the TomCat run configuration.
 
 ### Approving or denying a request will immediately update the page with the approval status:
 ![image](https://user-images.githubusercontent.com/93163143/145495506-0bdc061e-95e6-4bda-9fb6-3edda4bbf840.png)
+
+
 
 
 
