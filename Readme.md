@@ -126,6 +126,10 @@ Run the project with the TomCat run configuration.
 ### Approving or denying a request will immediately update the page with the approval status:
 ![image](https://user-images.githubusercontent.com/93163143/145495506-0bdc061e-95e6-4bda-9fb6-3edda4bbf840.png)
 
+### You can then logout of that account, log back in to your account, view your reimbursements and it will show:
+![image](https://user-images.githubusercontent.com/93163143/145496030-0813a6ae-6de2-4631-9e52-981d38dfbc8d.png)
+
+
 
 
 
