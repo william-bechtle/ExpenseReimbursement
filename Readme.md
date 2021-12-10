@@ -107,6 +107,10 @@ Run the project with the TomCat run configuration.
 ### Selection "Submit Reimbursement Request" will show this screen, enter the info, if you enter it incorrectly, it will make you do it again:
 ![image](https://user-images.githubusercontent.com/93163143/145494704-8a960f17-7c0b-4c38-a66a-2c717f51e4da.png)
 
+### After submitting the request, it will bring you back to the Menu above, then you can select "List of your reimbursements" to see the reimbursement you submitted:
+![image](https://user-images.githubusercontent.com/93163143/145494864-41ad9764-545c-43e0-bc78-7104fc7f7053.png)
+
+
 
 
 
