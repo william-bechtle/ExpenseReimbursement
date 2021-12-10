@@ -113,6 +113,20 @@ Run the project with the TomCat run configuration.
 ### You can then click the home button, to return to the Menu above, clicking on calculator will show the calculator: 
 ![image](https://user-images.githubusercontent.com/93163143/145495020-2cc2d110-2841-4c23-adf1-6d46a02fdea2.png)
 
+### Now click LogOut, this will return you to the login screen. Enter "wjbechtle@gmail.com" as the username, and "pass" as the password, this logs you into the "Manager" account.
+
+### The menu will be different, the calculator still exists, but you have the other option to "List All Reimbursements":
+![image](https://user-images.githubusercontent.com/93163143/145495258-340288d8-012f-4cc9-97a5-537d67787884.png)
+
+### Clicking on that option will show you all reimbursements:
+![image](https://user-images.githubusercontent.com/93163143/145495425-487e7888-2e1e-49c0-bbce-cdae300869ac.png)
+
+### Approving or denying a request will immediately update the page with the approval status:
+![image](https://user-images.githubusercontent.com/93163143/145495506-0bdc061e-95e6-4bda-9fb6-3edda4bbf840.png)
+
+
+
+
 
 
 
